@@ -1,61 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <title>Furniture Homepage</title>
+  <title>Christopher Brown Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/shared-style.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Trirong' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
+
 <body>
-  <nav id="navBar">
-    <h1>Furniture</h1>
-    <div id="navigation">
-      <p class="highlight">New In</p>
-      <p>Furniture</p>
-      <p>Rest</p>
-      <p>Decoration</p>
-      <p>Outdoor</p>
-      <p>Magazine</p>
-      <p>Outlet</p>
+  <header class="navigation">
+    <div class="inline-block logo">
+      <a href="index.html">
+        <h1>Christopher Brown</h1>
+      </a>
     </div>
-    <div class="icons">
-      <img src="images/user.png">
-      <img src="images/search.png">
-      <img src="images/shopping-bag.png">
-    </div>
-  </nav>
-  <section id="heroGrid">
-    <div id="featuredProduct" class="heroGridArea">
-      <div id="headline" border: 5px solid #FF6200;>
-        <h3 id="newCollection">New Collection</h3>
-        <h2>Chairs & Stools</h2>
-        <p>Armchair upholstered in synthetic leather. Powder coated steel legs.</p>
+    <nav class="inline-block">
+      <div class="topnav">
+        <a href="my-work.html">My Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <div class="heroImg"></div>
+  <div>
+    <p class="aboutMe">My friends would definitely describe me as hilarious, witty, and the smartest person they know.
+      While this may be true, I am also hard working, reliable, and a team player. 
+
+      I have a strong moral drive to understand people. I have worked hard to develop empathy for others. You might even
+      catch me crying on the elliptical at the gym while watching a family episode of Survivor. Now, it is my turn to
+      help find solutions for life’s problems, and make it look good in the process!
+
+      As a former elementary school teacher, I have developed organization, creativity, and storytelling skills. After
+      deciding to make a career switch, I joined the UI/UX bootcamp through the University Of Utah. I successfully
+      finished the bootcamp in August 2023.
+    </p>
+  </div>
+
+  <div class="myWork">
+    <div class="caseStudy1">
+      <div class="cs1Title">
+        <div class="csTitleCard">The Travel Guide</div>
+        <div class="tag">App Design</div>
+        <div class="tag">UX Research</div>
+      </div>
+      <img src="images/travel-guide1.png" alt="Project1" class="cs1Image" />
+      <div class="csContent">
+        <p class="csAbout">In the aftermath of the COVID-19 pandemic, I identified a common concern that many travelers
+          had: airline reliability.
+          <br><br>
+          This case study outlines the UX research steps I took to identify the problem, brainstorm a solution, and then
+          design an app that allows travelers to feel a little more comfortable booking that flight.
+        </p>
+        <button class="viewCS">View case study</button>
       </div>
     </div>
-    <div id="secondaryProduct" class="heroGridArea"></div>
-    <div id="CTA" class="heroGridArea">
-      <h4>Shop Now</h4>
-      <img src="images/arrow-right.png">
+    <div class="caseStudy2">
+      <div class="cs2Info">
+        <div class="csTitleCombo">
+          <div class="csTitleCard">Second Chance Chi</div>
+          <div class="tagHolder">
+            <div class="tag">Website Redesign</div>
+            <div class="tag">UI Design</div>
+            <div class="tag">Navigation Redesign</div>
+          </div>
+        </div>
+        <div class="csContent">
+          <p class="csAbout">While trying to identify a non-profit’s website that needed updating, we found an
+            organization called Second Chance Chi. As a group of people who love dogs and have a passion for rescue
+            animals, we decided that we wanted to redesign their website to increase usability.
+            <br><br>
+            This case study outlines the UX research steps we took to identify the problem with the current website,
+            brainstorm a solution, and then design mobile and desktop iterations of their new website.
+          </p>
+          <button class="viewCS">View case study</button>
+        </div>
+      </div>
+      <div class="csImageHolder">
+        <img src="images/scc1.png"/>
+        <img src="images/scc2.png"/>
+      </div>
     </div>
-  </section>
-  <div class="subHeading">
-    <h3>Shop By Category</h3>
   </div>
-  <section id="categoryGrid">
-    <div id="bookcases" class="categoryGridArea">
-      <div class="heading">Bookcases</div>
+
+  <footer>
+    <div class="rightAlign">
+      <div class="logo">
+        <h1>Christopher Brown</h1>
+      </div>
+      <span>
+        <img src="images/Email.png" href="x">
+        <img src="images/LinkedIn.png" href="x">
+      </span>
+      <p>Copyright © 2023</p>
     </div>
-    <div id="bedroom" class="categoryGridArea">
-      <div class="heading">Bedroom</div>
-    </div>
-    <div id="couches" class="categoryGridArea">
-      <div class="heading">Couches</div>
-    </div>
-    <div id="patio" class="categoryGridArea">
-      <div class="heading">Patio</div>
-    </div>
-    <div id="desks" class="categoryGridArea">
-      <div class="heading">Desks</div>
-    </div>
-  </section>
+  </footer>
 </body>
+
 </html>

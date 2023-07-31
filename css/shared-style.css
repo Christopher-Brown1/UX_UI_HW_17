@@ -1,0 +1,103 @@
+body {
+  background-color: #2C3531;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C3531;
+  z-index: 10;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.inline-block {
+  width: 100%;
+}
+
+.logo {
+  padding: 1%;
+  white-space: nowrap;
+}
+
+.logo h1 {
+  font-family: 'Megrim';
+  font-size: 48px;
+  text-align: start;
+  margin: 0;
+}
+
+.logo a,
+h1 {
+  text-decoration: none;
+  color: #D1E8E2;
+}
+
+.navigation {
+  width: auto;
+  padding: 1%;
+  display: flex;
+  align-items: baseline;
+
+}
+
+.topnav {
+
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.topnav a {
+  color: #D1E8E2;
+  text-align: center;
+  padding: 18px 31px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Trirong';
+}
+
+.topnav a:hover {
+  background-color: #116466;
+  color: #D1E8E2;
+}
+
+.topnav a.active {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #116466;
+  display: flex;
+  justify-content: flex-end;
+
+  bottom: 0;
+}
+
+.rightAlign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 16px;
+}
+
+footer img {
+  width: 60px;
+  height: 60px;
+}
+
+footer p {
+  color: #D1E8E2;
+  font-family: Trirong;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+}
